@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+  <title>Super Piedra, papel, tijeras, lagarto o Spock</title>
+  <script src="js/ppt.js" language="javascript" type="text/javascript"></script>
+  <link rel="shortcut icon" href="img/ganas.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=1496372533912645&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+  <div id="contenedor"> 
+    <div id="instrucciones">
+      <img src="img/piedra-papel-tijeras-lagarto-spock.png" width="50px"/> 
+    </div>  
+    <div id="opciones" >
+      <div id="titulo" >
+        <h1>Super Piedra, Papel, Tijeras, Lagarto o Spock</h1>
+      </div>
+      <div id="imgopciones" >  
+        <img class="seleccion" src="img/piedra.png" onclick="PiedraFunction()"/>
+        <img class="seleccion" src="img/papel.png" onClick="PapelFunction()"/>
+        <img class="seleccion" src="img/tijera.png" onClick="TijeraFunction()"/>
+        <img class="seleccion" src="img/lagarto.png" onClick="LagartoFunction()"/>
+        <img class="seleccion" src="img/spock.png" onClick="SpockFunction()"/>
+        <br/>
+        <div class="imgresultado" id="usuario"></div>
+        <div  id="vs"></div>
+        <div class="imgresultado" id="maquina"></div>
+        <br/>
+        <div  id="resultado"></div>
+        <br/>
+      </div>
+      <div id="comentarios" >
+      <h4>¿Te gusto?</h4>
+      <div class="fb-comments" data-href="http://www.azulweb.net/demo/ppt/index.html" data-width="100%" data-numposts="100" data-colorscheme="light"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
